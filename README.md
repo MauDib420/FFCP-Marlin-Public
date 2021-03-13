@@ -11,14 +11,14 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/temeyers/FFCP-Marlin-Public">
+  <a href="https://github.com/MauDib420/FFCP-Marlin-Public">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
