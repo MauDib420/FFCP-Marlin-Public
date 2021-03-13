@@ -25,14 +25,14 @@
   <h3 align="center">FFCP-Marlin-Public</h3>
 
   <p align="center">
-    Guide with files and firmware to modify the Flashforge Creator Pro to use a Dragon Hotend, BMG Extruder, and SKR 1.4 Turbo with BLTouch. 
+    Guide with files and firmware to modify the Flashforge Creator Pro to use a Hemera Extruder with Volcano Hotend, and BTT SKR 1.4 Turbo + 30amp Mosfets with BLTouch, running Marlin 2.0.7.2 
     <br />
-    <a href="https://github.com/temeyers/FFCP-Marlin-Public"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/MauDib420/FFCP-Marlin-Public"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/temeyers/FFCP-Marlin-Public/issues">Report Bug</a>
+    <a href="https://https://github.com/MauDib420/FFCP-Marlin-Public/issues">Report Bug</a>
     ·
-    <a href="https://github.com/temeyers/FFCP-Marlin-Public/issues">Request Feature</a>
+    <a href="https://https://github.com/MauDib420/FFCP-Marlin-Public/issues">Request Feature</a>
   </p>
 </p>
 
@@ -67,9 +67,11 @@ To get Started please download all needed print files and proceed to Prerequisit
 ### Built With
 
 * Visual Studio Code
+* AutoBuild Marlin VSCode Plugin
 * Platform.io
-* Marlin 2.x Builds
-* Shapr3D for iOS 
+* Marlin 2.0.7.2 Builds
+ 
+ 
 
 
 
@@ -89,7 +91,7 @@ This is an example of how to list things you need to use the software and how to
 * Install Platform.io
 	[Link to Guide](https://marlinfw.org/docs/basics/install_platformio_vscode.html)
 * Download the GitHub Repo and save to a safe known location
-	[Download Repo](https://github.com/temeyers/DCP-Marlin-Private/archive/master.zip)
+	[Download Repo](https://github.com/MauDib420/DCP-Marlin-Private/archive/master.zip)
 
 ### Installation
  
@@ -110,8 +112,8 @@ _For more support, please refer to the Group on [Facebook](https://facebook.com/
 <!-- ROADMAP -->
 ## Roadmap
 
-* See the [Projects section](https://github.com/temeyers/FFCP-Marlin-Public/projects/1) for a list of proposed features.
-* See the [Issues](https://github.com/temeyers/DCP-Marlin-Private/issues) for a list of known bugs or to report them. 
+* See the [Projects section](https:/github.com/MauDib420/FFCP-Marlin-Public/projects/1) for a list of proposed features.
+* See the [Issues](https://github.com/MauDib420/DCP-Marlin-Private/issues) for a list of known bugs or to report them. 
 
 * Please do not hessitate to submit feature requests or bug reports. 
 
@@ -140,11 +142,11 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
  
-* Terry Meyers 
-* Twitter - [@temeyers](https://twitter.com/temeyers) 
-* Email - [Gmail](mailto:temeyers@gmail.com)
+* Facebook - @matt.kinkennon
+* Twitter - @Maudib420
+*
 
-Project Link: [https://github.com/temeyers/FFCP-Marlin-Public](https://github.com/temeyers/FFCP-Marlin-Public)
+Project Link: [https://github.com/MauDib420/FFCP-Marlin-Public](https://github.com/temeyers/FFCP-Marlin-Public)
 
 
 
@@ -152,8 +154,10 @@ Project Link: [https://github.com/temeyers/FFCP-Marlin-Public](https://github.co
 ## Acknowledgements
 
 * [Marlin Firmware](http://marlinfw.org/) 
-* [Shapr3D](http://Shapr3D.com/)
 * [BigTree-Tech](http://www.bigtree-tech.com/)
+* [TH3D Studios](http://www.th3dstudios.com/)
+* [BuildTak](http://www.buildtak.com/)
+* [Slice Engineering](http://www.sliceengineering.com/)
 
 
 
@@ -162,15 +166,13 @@ Project Link: [https://github.com/temeyers/FFCP-Marlin-Public](https://github.co
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/temeyers/FFCP-Marlin-Public.svg?style=flat-square
-[contributors-url]: https://github.com/temeyers/FFCP-Marlin-Public/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/temeyers/FFCP-Marlin-Public.svg?style=flat-square
-[forks-url]: https://github.com/temeyers/FFCP-Marlin-Public/network/members
-[stars-shield]: https://img.shields.io/github/stars/temeyers/FFCP-Marlin-Public.svg?style=flat-square
-[stars-url]: https://github.com/temeyers/FFCP-Marlin-Public/stargazers
-[issues-shield]: https://img.shields.io/github/issues/temeyers/FFCP-Marlin-Public.svg?style=flat-square
-[issues-url]: https://github.com/temeyers/FFCP-Marlin-Public/issues
-[license-shield]: https://img.shields.io/github/license/temeyers/FFCP-Marlin-Public.svg?style=flat-square
-[license-url]: https://github.com/temeyers/FFCP-Marlin-Public/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/temeyers
+[contributors-url]: https://github.com/MauDib420/FFCP-Marlin-Public/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MauDib420/FFCP-Marlin-Public.svg?style=flat-square
+[forks-url]: https://github.com/MauDib420/FFCP-Marlin-Public/network/members
+[stars-shield]: https://img.shields.io/github/stars/MauDib420/FFCP-Marlin-Public.svg?style=flat-square
+[stars-url]: https://github.com/MauDib420/FFCP-Marlin-Public/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MauDib420/FFCP-Marlin-Public.svg?style=flat-square
+[issues-url]: https://github.com/MauDib420/FFCP-Marlin-Public/issues
+[license-shield]: https://img.shields.io/github/license/MauDib420/FFCP-Marlin-Public.svg?style=flat-square
+[license-url]: https://github.com/MauDib420/FFCP-Marlin-Public/blob/master/LICENSE.txt
 [product-screenshot]: images/screenshot.png
