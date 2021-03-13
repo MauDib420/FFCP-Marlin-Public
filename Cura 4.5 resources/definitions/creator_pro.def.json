@@ -1,0 +1,72 @@
+{
+    "id": "creator_pro",
+    "name": "Flashforge Creator Pro",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "MauDib42",
+        "manufacturer": "FlashForge",
+        "platform": "FlashForge_CreatorPro.stl",
+        "file_formats": "text/x-gcode",
+        "platform_offset": [ 0, 0, 0],
+		"has_materials": true,
+		"has_variants": true,
+		"variants_name": "Print core",
+		"preferred_variant_name": "AA 0.6",
+		"has_machine_quality"; true,
+        "machine_extruder_trains":
+        {
+            "0": "creatorpro_extruder_1"           
+        }
+    },
+    "settings": {
+        "single_gcode": {
+            "label": "GCode for single extrusion",
+            "description": "Start GCode",
+            "type": "str",
+            "settable_per_mesh": false,
+            "settable_per_extruder": false,
+            "settable_per_meshgroup": false,
+            "default_value": "; START G-CODE\nM104 T0 S{material_print_temperature}\nM140 S{material_bed_temperature}\nG28\nM420 S1\nT0\nG1 X-20 Y0 Z30 F4800 ; move to wait position left hand side of the table\nM190 S{material_bed_temperature}\nM109 T0 S{material_print_temperature}\nG92 E0\nG1 Z0.4 F1800\nG1 X0 Y5 E20 F300 ; purge nozzle\nG1 X15 Y5 Z0.15 F1200 ; slow wipe\nG1 X0 Y5 Z0.5 F1200 ; lift\nG92 E0\n;START G-CODE;"
+        },
+       
+    },
+    "overrides": {
+        "machine_name": { "default_value": "FlashForge Creator Pro" },
+        "machine_gcode_flavor": { "default_value": "Marlin" },
+		"material_diameter": { "default_value": 1.75 },
+        "machine_extruder_count": { "default_value": 1 },
+        "machine_heated_bed": { "default_value": true },
+        "machine_center_is_zero": { "default_value": false },
+        "machine_height": { "default_value": 175 },
+        "machine_depth": { "default_value": 148 },
+        "machine_width": { "default_value": 235 },
+        "relative_extrusion": { "value": true, "enabled": true },
+        "machine_max_feedrate_x": { "default_value": 300 },
+        "machine_max_feedrate_y": { "default_value": 300 },
+        "machine_max_feedrate_z": { "default_value": 33.3 },
+        "machine_max_feedrate_e": { "default_value": 50 },
+        "machine_max_acceleration_x": { "default_value": 1000 },
+        "machine_max_acceleration_y": { "default_value": 1000 },
+        "machine_max_acceleration_z": { "default_value": 150 },
+        "machine_max_acceleration_e": { "default_value": 5000 },
+        "machine_max_jerk_xy": { "default_value": 10 },
+        "machine_max_jerk_z": { "default_value": 0.3 },
+        "machine_max_jerk_e": { "default_value": 5 },
+        "machine_endstop_positive_direction_x": { "default_value": false },
+        "machine_endstop_positive_direction_y": { "default_value": false },
+        "machine_endstop_positive_direction_z": { "default_value": false },
+        "machine_steps_per_mm_x": { "default_value": 188.2 },
+        "machine_steps_per_mm_y": { "default_value": 188.52 },
+        "machine_steps_per_mm_z": { "default_value": 800 },
+        "machine_steps_per_mm_e": { "default_value": 409 },
+        "retraction_amount": {"default_value": 0.4 },
+        "retraction_speed": { "default_value": 30 },
+        "raft_margin": { "default_value": 3 },
+        "speed_layer_0":{ "value": 20.0 },
+        "ooze_shield_angle": {"value": 30 },
+        "machine_start_gcode": {"value": ";START G-CODE\nM104 T0 S{material_print_temperature}\nM140 S{material_bed_temperature}\nG28\nM420 S1\nT0\nG1 X-20 Y0 Z30 F4800 ; move to wait position left hand side of the table\nM190 S{material_bed_temperature}\nM109 T0 S{material_print_temperature}\nG92 E0\nG1 Z0.4 F1800\nG1 X0 Y5 E20 F300 ; purge nozzle\nG1 X15 Y5 Z0.15 F1200 ; slow wipe\nG1 X0 Y5 Z0.5 F1200 ; lift\nG92 E0\n;START G-CODE;" },
+        "machine_end_gcode": {"default_value": ";END G-CODE\nG1 X0 Y0 Z175 F1000 ; send Z axis to bottom of machine\nM140 S0; cool down HBP\nM104 T0 S0 ; cool down right extruder\nM127 ; stop blower fan\nM18 ; disable stepper\n;END G-CODE;"}      
+    }
+}
