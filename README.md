@@ -58,8 +58,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 To get Started please download all needed print files and proceed to Prerequisites:
 
 
@@ -70,6 +68,7 @@ To get Started please download all needed print files and proceed to Prerequisit
 * AutoBuild Marlin VSCode Plugin
 * Platform.io
 * Marlin 2.0.7.2 Builds
+* Fusion360
  
  
 
@@ -146,7 +145,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 * Twitter - @Maudib420
 *
 
-Project Link: [https://github.com/MauDib420/FFCP-Marlin-Public](https://github.com/temeyers/FFCP-Marlin-Public)
+Project Link: [https://github.com/MauDib420/FFCP-Marlin-Public](https://github.com/Maudib420/FFCP-Marlin-Public)
 
 
 
