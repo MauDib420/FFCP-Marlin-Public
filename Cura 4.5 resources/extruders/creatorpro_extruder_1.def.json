@@ -1,18 +1,16 @@
 {
     "id": "creatorpro_extruder_1",
     "version": 2,
-    "name": "Extruder",
-    "inherits": "creatorpro_extruder_base",
+    "name": "Extruder 1",
+    "inherits": "fdmextruder",
     "metadata": {
-        "machine": "flashforgecreatorpro",
+        "machine": "Flashforge Creator Pro",
         "position": "0"
     },
     "overrides": {
-        "extruder_nr": {
-            "default_value": 0,
-            "maximum_value": "0"
+        "extruder_nr": { "default_value": 0 }
         },
         "machine_nozzle_size": { "default_value": 0.6 },
-        "material_diameter": { "default_value": 1.75 },
-        }
+        "material_diameter": { "default_value": 1.75 }
+       
 }
